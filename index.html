@@ -2,45 +2,59 @@
 <html dir="ltr" lang="en-US">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="RH" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="author" content="RH">
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,600,700|Raleway:300,400,500,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 
 	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="one-page/onepage.css" type="text/css" />
+	<link rel="stylesheet" href="one-page/onepage.css" type="text/css">
 	<!-- / -->
 
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css">
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css">
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
-	<link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="demos/photographer/photographer.css" type="text/css">
 
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/colors.php?color=e7272d" type="text/css" />
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css">
+	<link rel="stylesheet" href="css/colors.php?color=e7272d" type="text/css">
 	<!-- restaurant Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css" />
-	<link rel="stylesheet" href="demos/restaurant/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css">
 	<!-- / -->
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.rh_overlay{
+		  position: fixed; /* Sit on top of the page content */
+		  display: none; /* Hidden by default */
+		  width: 100%; /* Full width (cover the whole page) */
+		  height: 100%; /* Full height (cover the whole page) */
+		  top: 0 !important;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+  		  justify-content: center;
+          align-items: center; 
+		  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+		  z-index: 50; /* Specify a stack order in case you're using a different order for other elements */
+		  cursor: pointer; /* Add a pointer on hover */
+		}
+	</style>
 
 	<!-- Document Title
 	============================================= -->
 	<title>RH Portfolio| Empire</title>
-
 </head>
 
-<body class="stretched side-push-panel">
+<body class="stretched side-push-panel gototop-active device-sm">
 
 	<div class="body-overlay"></div>
 
@@ -90,51 +104,37 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element slider-parallax full-screen force-full-screen">
+		<section id="slider" class="slider-element force-full-screen full-screen">
 
-			<div class="slider-parallax-inner">
-
-				<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
-	
-					<div class="container center">
-						<div class="vertical-middle ignore-header" style="z-index: 2;">
-<!-- 							<div class="emphasis-title">
-								<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-										<span class="t-rotate t700 font-body opm-large-word">
-										Any light you shine in others reflects on you |أي نور تتركه داخل احدهم يضيئك </span>
-									</span> 
-								</h1>
-							</div>
-							<a href="#" class="button button-border button-light button-rounded" data-scrollto="#section-work" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">View our Works</a>
--->
-						</div>
+			<div class="force-full-screen full-screen dark" style="background-image: url('images/rh/indexx.JPG'); background-size: cover; background-repeat: no-repeat; background-position: 80% 42%; height: 771px;">
+				
+				<div class="vertical-left">
+					<div class="slider-caption slider-caption-left">
+						<h1 data-animate="fadeInDown" style="font-size:60px; font-weight: 600; margin-bottom: 0px;" class="fadeInDown animated">Radwa Hamed</h1>
+						<p class="d-none d-sm-block fadeInUp animated" data-animate="fadeInUp" data-delay="400" style="text-transform: none; margin-top: 0px !important;">
+							An Audacious Stanford Design Student,<br>
+							A Techie Storyteller/Engineer,<br>
+							A Knight-Hennessy Scholar, <br>
+							A WEF Global Shaper <br>
+							&amp; A Dream-catcher.
+						</p>
+						<a data-animate="fadeInUp" data-delay="600" href="#" class="button button-border button-light button-rounded button-large noleftmargin nobottommargin d-none d-md-inline-block fadeInUp animated" style="margin-top: 30px;">Get To Know Me</a>
+						<a data-animate="fadeInUp" data-delay="800" href="#" class="button button-3d button-teal button-large nobottommargin d-none d-md-inline-block" style="background-color: #102a49; margin: 30px 0 0 10px;">Check my works</a>
 					</div>
-					<div class="video-wrap" style="z-index: 1;">
-						<div class="player">
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jb-hT4WnS9k?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;mute=0"
-							frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</div>
-						<!-- <div class="video-overlay" style="background-color: rgba(0,0,0,0.1);"></div> -->
-					    </div>
-
-					<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
 				</div>
-
 			</div>
 
 		</section><!-- #slider end -->
 
 		<!-- Content
 		============================================= -->
-		<section id="content">
+		<section id="content" style="margin-bottom: 0px;">
 			<div class="modal-on-load enable-cookie" data-target="#myModal1"></div>
 			<!-- Modal -->
 			<div class="modal1 mfp-hide" id="myModal1">
 				<div class="block dark divcenter" style="background-color: #333333AA; max-width: 700px;">
 					<div class="center" style="padding: 50px;">
-						<div id="question"></div>
+						<div id="question"><h3>What makes you vulnerable?</h3><p class="nobottommargin"> "The unexamined life is not worth living!" Socrates, Apology 399BCE. Questioning life has always been viewed as defiance and a seek of understanding what wisdom really is led Socrates to lose his life. However, I believe I seek a life of meaning for that I will continue to ask questions, to have tiny bit of understanding when I make an impact what people really need. This is philo-sophia for me, a love for wisdom! </p><div style="padding: 30px;"><textarea class="required sm-form-control input-block-level short-textarea" id="question-answer" name="question-answer" rows="2" cols="30" placeholder="Give me a piece of your mind"></textarea></div><div style="padding: 30px;"><a href="#" class="button button-change nott button-large dark t300 gradient-border ml-0 mt-4 mb-0" onclick="$.magnificPopup.close();return false;">You are not alone!</a></div></div>
 						<script>
 						    (function() {
 						      var questions = [
@@ -174,266 +174,20 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="content-wrap nopadding">
-
-				<div id="section-about" class="page-section nopadding">
-
-					<div class="section nomargin">
-						<div class="container clearfix">
-							<div class="divcenter center" style="max-width: 900px;">
-								<h2 class="nobottommargin t300 ls1">For I’m all the places where a piece of my heart once resided... I’m Cairo when I am tenacious, Paris when I am artsy, Zurich when I am calm, California when I am innovative and NY when I am wild. I’m all the ages which I have lived... I’m three when I laugh; I am five when I cry; I am fifteen when I dream and I am twenty when I love. I am all the people which were reflected on me... my family, my friends, my heartbreaks and my role models.</h2>
-							</div>
-						</div>
-					</div>
-					<div class="section dark topmargin-lg nobottommargin clearfix">
-						<div class="container clearfix">
-							<div class="row clearfix">
-								<div class="col-lg-4 col-md-5 offset-lg-1 topmargin-lg divcenter" style="position: center;">
-									<img src="images/rh/happy.jpg" alt="img-author" style="border: 8px solid #333;">
-								</div>
-								<div class="col-lg-5 col-md-7 offset-lg-1">
-									<div class="d-block d-md-none d-lg-none d-xl-block"></div>
-									<div class="heading-block noborder">
-										<h2 class="ls5">My Story</h2>
-										<span class="t300" style="font-size: 20px; color: #DDD;">"Here's to the fools who dream"</span>
-									</div>
-									<p class="text-muted">"Look where I ended up dear diary; a girl from Cairo with a big heart and dreamy eyes travelling the world and trying to make the slightest impact she can." ~ My Diary Entry, November, 2018.<br>I am one of three siblings in a middle class Egyptian family. I lost my loving father when I was 13 and it is then that I learnt the meaning of strength from my mum. I learnt the meaning of perseverence from my siblings and I learnt how to not settle. Upon graduating from school, I joined the American University in Cairo- something I worked diligently for. I double majored in Computer Engineering and Electronics Engineering with a tenacious lust towards learning everything about technology from the transistor level to the UI level. I did a lot of internships inside Egypt and in many tech giants like Microsoft Research, Google, UC Berkeley and Affectiva. However, this is not how I see my story.<br>
-									I see my story in the great friendships I made. I see my story in the endless memories I made. I see my story in every scent I smelled and every corner I visited. I see my story in the impact people have left on me and the impact I have started to do and want to continue doing! Every Light you shine on others reflects on you | أي نور تتركه داخل احدهم يضيئك. I'll continue to write a story where I can light at least one person's life and maybe it'll reflect onto the world. </p>
-								</div>
-							</div>
-							<div class="row clearfix topmargin-lg">
-								<div class="col-lg-5 col-md-7 offset-lg-1">
-									<div class="d-block d-md-none d-lg-none d-xl-block"></div>
-									<div class="heading-block noborder">
-										<h2 class="ls5">My Philosophy</h2>
-										<span class="t300" style="font-size: 20px; color: #DDD;">"Dog Days are over."</span>
-									</div>
-									<p class="text-muted">There is this very famous star called "The Dog Star", or Sirius, it used to shine so hard during time of the flood in ancient Egypt and people used to think of it as time of suffering, or as the Greeks called it "The Dog Days".<br>Ever since I was a little kid, whenever I felt happy, I felt a little bit scared. I felt like it was going to be this fleeing moment of happiness that is eventually going to escape me and I will be either bored, sad or just neutral.<br><br>One summer I decided this shouldn't be the case. I decided to embrace emotions as they should be, those moments of happiness were just about being happy, no mixups; I wanted to make sure I fully experience them, to let the emotion sink in and somehow to be totally surrounded by it.<br><br>I realized that I am the happiest version of myself when I am curious, when I am asking questions, when I am learning something new. This is why I decided to embrace my quest for enhancing education by learning about how can I use human-centric design and interactive technology for doing and impact on the society, questioning everything I see along the way and trying to understand humanity in its rawest forms.</p>
-								</div>
-								<div class="col-lg-4 col-md-5 offset-lg-1 topmargin-lg divcenter">
-									<img src="images/rh/strong.jpg" alt="img-author" style="border: 8px solid #333;">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="section-work" class="section nobottommargin" style="background: #ffffff url('./images/rh/tech.png') no-repeat center right; background-size: cover; padding: 60px 0;">
-					<div class="heading-block center nobottommargin nobottomborder">
-						<span class="ls1" style="font-size: 14px; color: #AAA"> The Projects Closest To My Heart</span>
-						<h3 class="nott ls0" style="font-size: 40px;line-height: 1.3;">Technical &amp; Creative Projects </h3>
-					</div>
-				</div>
-
-				<div class="section dessert-menu nomargin nopadding">
-					<div class="container-fluid">
-
-						<div class="row common-height clearfix">
-							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
-								<div id="dessert-menu-carousel" class="menu-carousel owl-carousel image-carousel custom-js">
-
-									<div class="oc-item">
-										<a href="./rh/ecosystemgallery.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/riseup/1.png" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">MENA Entrepreneurial Eco System Gallery</h3>
-												<div class="food-info">Rise Up Interactive Technology Gallery</div>
-												<a href="./rh/ecosystemgallery.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>The MENA Eco System Gallery is an interactive Gallery where visitors step on a pressure sensor embedded on a step to automatically start a video that provides them with data on the entrepreneurial ecosystem in the corresponding country.<br><br>It was deisgned to be a silent space for visiotrs to contemplate the growth of the market and invesmtents in the region within the last 5 years- post Arab Spring. Their were multiple essential elements in the design including: the data, the data representation, the interactive design, the aesthetic layout. The data collected was designed in a way to tell the story of the state being studied. The data was presented in the format of a video in the RU color palette. It was designed to be projected directly from the ceiling as a light beam in the middle of dark areas in between - highlighting the turmoil in other areas in the region.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/embedded.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/embedded/1.jpg" alt="Image 2"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">The Cinematic Orchestra</h3>
-												<div class="food-info">Embedded Systems Project</div>
-												<a href="./rh/embedded.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify">The Cinematic Orchestra is our final project for the embedded systems course. This course was a competition based course where final project were presented to a panel of professors, industrial gurus from Valeo, Microsoft Research Labs and Amazon to assess the quality of the projects. Our project won <strong>First Place</strong>. The project is composed of two-folds. First, <strong>a drone </strong>is set to autonomously fly following a specific color of interest, in our case it was the green ball - as shown in the video. The <strong>irobot Roomba</strong> then follows this drone through a synchronization communication module between them. The Roomba carries a<strong> Kinect Camera</strong> that maps the movement of the person carrying the green ball and being followed. It then connects to an animation that is projected through a <strong>portable projector</strong>. This <strong>animated </strong>character mimics the movement of the person being followed as shown in the second half of the video.</p></p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/midas.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/midas/1.jpg" alt="Image 3"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Midas - Gesture Detection System </h3>
-												<div class="food-info">CSCE Graduation Thesis</div>
-												<a href="./rh/midas.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin">Midas is an open source gesture detection library integrable with any app in order to remotely control your machine. Human Computer Interaction (HCI) is an evolving area of research. It develops new ways through which people interact with computers in an easy and more natural way. Throughout the history of computing, people have been dependent on devices through which they could interact with computers. A new trend is the vision-based interaction methods, like hand gestures. <strong> Midas uses a depth camera to detect human gestures, recognize them, and trigger actions based on the type of gesture. </strong></p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/robox.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/robox/1.jpg" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Robox - Simaltaneous Localization and Mapping System -</h3>
-												<div class="food-info">EENG Graduation Thesis</div>
-												<a href="./rh/robox.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>Robox is an explorative Robot that we built as part of our Electronics Engineering Major Graduation Project. It carries out simaltaneous localization and mapping in an attempt autonomously explore uninhibited areas. The robot enters <strong>unexplored areas</strong>, and by navigating around the region, it incrementally <strong>builds a 2D floor plan</strong> of it. This functionality is useful not only for applications that can make direct use of the map, such as construction surveying, reconnaissance missions, and search and rescue operations, but it is also a fundamental building block for any autonomous robotic system, which must always maintain a model of its environment to be able to interact with it <strong>autonomously</strong>.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/roxy1.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/roxy1.jpg" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Roxy And The Intergalactic Circus</h3>
-												<div class="food-info">Writing Children's Literature Coursework</div>
-												<a href="./rh/roxy1.html" class="more-link">Read The Book Here <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>As part of my coursework - and as a result of my passion towards creative writing, I wrote this story as part of "Writing Children's Literature" coursework. The story revolves about a circus that has performers from all the different galaxies and one fo them is the Boxy family that is repsonsible for the cirucs outifts; however, their daughter Roxy wants to perform and embarks on. trip to find where her passion lies.<br> I did the illustrations, writing and editing for this project.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/roxy2.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/roxy2.jpg" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Roxy And The Intergalactic Circus</h3>
-												<div class="food-info">Writing Children's Literature Coursework</div>
-												<a href="./rh/roxy2.html" class="more-link">Read The Book Here <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>Building on the Roxy Project and as part of the DEA entrepreneurship project explained below - and as a result of my passion towards creative writing, I wrote this story as part of "Writing Children's Literature" coursework. The story revolves about a circus that has performers from all the different galaxies and one fo them is the Boxy family that is repsonsible for the cirucs outifts; however, their daughter Roxy wants to perform and embarks on. trip to find where her passion lies.<br> In here we exhibit the idea of DEA -with multiple story endings- which is an online platform that allows the parents/grandparents or any caregivers to customize books for their kids based on kids character, age, gender, ethnicity and even dream jobs. It allows them to send special messages to the kids through the books. Unlike others, the book is not delivered in the form of a printed picturebook but instead in the form of a movie roll accompanied with a Do-It-Yourself Projector kit, that the parent builds with the kid on their own and they can then use their mobile flashes to project their ideas and imagination onto the world.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/timekeepers.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/timekeepers.jpg" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Roxy And The Intergalactic Circus</h3>
-												<div class="food-info">Writing Children's Literature Coursework</div>
-												<a href="./rh/timekeepers.html" class="more-link">Read The Book Here <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>Building on the Roxy Project and as part of the DEA entrepreneurship project explained below - and as a result of my passion towards creative writing, I wrote this story as well for DEA Business.<br>DEA is an online platform that allows the parents/grandparents or any caregivers to customize books for their kids based on kids character, age, gender, ethnicity and even dream jobs. It allows them to send special messages to the kids through the books. Unlike others, the book is not delivered in the form of a printed picturebook but instead in the form of a movie roll accompanied with a Do-It-Yourself Projector kit, that the parent builds with the kid on their own and they can then use their mobile flashes to project their ideas and imagination onto the world.<br> 
-												The story revolves around a girl who fights with her family and time stops because the love meter in the house drops and she embarks on a journey to make things right and bring back time.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="./rh/video.html" class="more-link">
-										<img class="topmargin-sm" src="images/rh/video.png" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">Every Light You Shine On Others Reflects On You</h3>
-												<div class="food-info">Video Directing &amp; Screen Writing</div>
-												<a href="./rh/video.html" class="more-link">Watch The Video <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>In an attempt to represent my creative writing work in a media format, this video represents my take on Screen Writing and Directing. It is a very recent project that I am very passionate about.</p>
-											</div>
-										</div>
-									</div>
-									<div class="oc-item">
-										<a href="https://www.instagram.com/munchkinsthe/?hl=en" class="more-link">
-										<img class="topmargin-sm" src="images/rh/munchkins.jpg" alt="Image 1"></a>
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="nott">The Munchkins</h3>
-												<div class="food-info">Food Blog</div>
-												<a href="https://www.instagram.com/munchkinsthe/?hl=en" class="more-link">Check The Account <i class="icon-line-arrow-right"></i></a>
-												<p class="nobottommargin" style="text-align:justify"><br>One of the things I truly love is photography and specifically food photography.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-7 max-height clearfix">
-								<div class="vertical-top">
-									<div class="col-padding clearfix">
-										<div><div id="item-thumb1" class="item-thumb"></div></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class=" container clearfix"></div>
-				<!-- Flip Card Section
-				============================================= -->
-				<div id="section-services" class="section dark">
+			<div id="overlay-entrepreneurship" class="rh_overlay" onclick="off('overlay-entrepreneurship')">
+			  <div id="section-services" class="section dark" style="padding: 40px !important;">
 					<div class="container clearfix">
 
 						<div class="row align-items-center justify-content-between">
 
-							<div class="col-lg-4 parallax" data-bottom-top="margin-top:-50px" data-top-bottom="margin-top:50px">
-								<small class="text-muted uppercase t300 ls4 mb-1 d-block">Experience</small>
-								<h2 class="ls0 mb-4" style="font-size: 30px;">5 years of travelling the world to intern, create impactful entrepreneurial endeavors, do social good and be creative about it...</h2>
-								<p class="text-muted" style="font-size: 16px; text-align:justify;">I have been pursuing a passion towards technolgy and my internships helped me tickle the technical giants; however, it is by directly working with vulnerable communities like internally displaced nubians, syrian refugees and kids that I learnt my true passion in life: using my knowledge for social good.</p>
+							<div class="col-lg-4 parallax">
+								<small class="text-muted uppercase t300 ls4 mb-1 d-block">Entrepreneurial Attempts</small>
+								<h2 class="ls0 mb-4" style="font-size: 30px;">All that you touch you change; all that you change changes you.</h2>
+								<p class="text-muted" style="font-size: 16px; text-align:justify;">Working on projects with direct implication on cultural heritage or vulnerable communities like internally displaced nubians, syrian refugees and kids that I learnt my true passion in life: using my knowledge for social good.</p>
 							</div>
 
 							<div class="col-lg-7">
 								<div class="row">
-
-									<div class="col-sm-6">
-										<!-- Flip Card
-										============================================= -->
-										<div class="flip-card dark" style="box-shadow: 3px 3px #ffffff10;">
-											<div class="front no-after" style="background-color: #050505">
-												<div class="inner">
-													<div class="feature-box media-box">
-														<div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-															<a href="#">
-																<img src="images/rh/g.png" class="noradius nobg tleft" alt="">
-															</a>
-														</div>
-														<div class="fbox-desc">
-															<h3 class="t400 nott text-white">MY INTERNSHIPS</h3>
-															<p class="text-muted t500">Learn how I learnt to work under pressure, gained technical knowlede got a huge network of mentors and friends and travelled the world as a student.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="back" style="background: url('images/rh/internships/1.jpg') center/ cover">
-												<div class="inner mt-3">
-													<h4 class="mb-4 text-white">My summer for 4 years!</h4>
-													<a href="./rh/internships.html" class="button button-change ohidden rounded nott t300 m-0">
-														<span>Know More</span>
-														<span>Know More</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-sm-6 mb-5">
-										<!-- Flip Card
-										============================================= -->
-										<div class="flip-card dark" style="box-shadow: 3px 3px #ffffff10;">
-											<div class="front no-after" style="background-color: #050505">
-												<div class="inner">
-													<div class="feature-box media-box">
-														<div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-															<a href="#">
-																<img src="images/rh/auc.png" class="noradius nobg tleft" alt="">
-															</a>
-														</div>
-														<div class="fbox-desc">
-															<h3 class="t400 nott text-white">MY SOCIAL INNOVATION</h3>
-															<p class="text-muted t500">Impact isn't about doing charity; it's about finding something you don't like in the world and committing to making it different even if for one person.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="back" style="background: url('images/rh/social/nubia1.jpg') top/ cover">
-												<div class="inner mt-3">
-													<h4 class="mb-4 text-white">Leave something good in everyplace you go; leave something good in everyone you see.</h4>
-													<a href="./rh/social.html" class="button button-change ohidden rounded nott t300 m-0">
-														<span>Know More</span>
-														<span>Know More</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-
 									<div class="col-sm-6 mb-5">
 										<!-- Flip Card
 										============================================= -->
@@ -496,817 +250,344 @@
 										</div>
 									</div>
 
+									<div class="col-sm-6">
+										<!-- Flip Card
+										============================================= -->
+										<div class="flip-card dark" style="box-shadow: 3px 3px #ffffff10;">
+											<div class="front no-after" style="background-color: #050505">
+												<div class="inner">
+													<div class="feature-box media-box">
+														<div class="fbox-icon position-relative mb-4" style="width: 60px;height: 40px">
+															<a href="#">
+																<img src="images/rh/the untold/logo.png" class="noradius nobg tleft" alt="">
+															</a>
+														</div>
+														<div class="fbox-desc">
+															<h3 class="t400 nott text-white">The Untold</h3>
+															<p class="text-muted t500">The Untold transfers Egypt into open air museum where visitors integrate directly with the touristic ecosystem using simultaneous localization and mapping to bring them to life.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="back" style="background-image: url('images/rh/the untold/logo.png')">
+												<div class="inner mt-3">
+													<h4 class="mb-4 text-white">The project was motivated by the need to protect uncharted cultural  heritage, own the egyptian nnarrative and provide a solid way for data collection and analytics.</h4>
+													<a href="./rh/the untold.html" class="button button-change ohidden rounded nott t300 m-0">
+														<span>Know More</span>
+														<span>Know More</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="container clearfix">
+			</div>
+			<div class="content-wrap nopadding center">
 
-					<div id="section-awards" class="heading-block section center allmargin-lg" style="background-color: white;">
-						<span class="before-heading color">"Don't work for recognition, but do work that is worth it"</span>
-						<h2>The Awardee</h2>
-					</div>
+				<div id="section-about" class="page-section nopadding">
 
-				</div>
-
-				<div id="portfolio" class="portfolio grid-container portfolio-margin portfolio-full portfolio-overlay-open clearfix">
-
-					<article class="portfolio-item pf-media pf-icons">
-						<div class="portfolio-image"  style="background: #FFF url('images/rh/award2.jpg') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3 style="color: #000 !important; padding: 2px;">Internet Society 25Under25</h3>
-								</div>
+					<div class="section nomargin">
+						<div class="container clearfix">
+							<div class="divcenter center">
+								<h1>  Hi! I am Radwa </h1>
+								<small class="text-muted uppercase t300 ls3 d-block">Here'ss to the fools who  dream</small>
+								<p style="font-weight: normal; font-size: 20px; text-align: justify; margin-bottom: 0.7em;"> When I was younger, my mum  used to read me bed time  stories every night and  ask me to give them an ending. Every night it was the same ending. my mum would always ask “Who is going to put other superheroes to sleep today? Who is going to slay their dragons?” and my answer was always as enthused: “me, mum. ME!”<br> </p>
+								<p style="font-weight: normal; font-size: 20px; text-align: justify; margin-bottom: 0.7em;">I grew to know that <strong>I can't be a super hero</strong> but I can still <strong>aspire to change the world and help people slay their own dragons</strong>. I am currently pursuing my <strong> Masters in Design Impact at Stanford University. </strong> I am a practitionar of human centric design in an attempt to help create better products and services <strong> with a focus on education and maintaing cultural heritage &amp; identity</strong>. I am part of the <strong>2019 Knight-Hennessy Cohort</strong> at Stanford, a program working on developing a community of future global leaders to address complex challenges through collaboration &amp; innovation.<br></p> 
+								<p style="font-weight: normal; font-size: 20px; text-align: justify;">I come from a closely-knit <strong>Egyptian</strong> family. I learnt the meaning of strength from my mum. I learnt the meaning of perseverence from my siblings. In a previous life I was a software engineer who is always involved  in extra-curricular activities . I joined the American University in Cairo- something I worked diligently for. I <strong>double majored in Computer Engineering and Electronics Engineering</strong> with a tenacious lust towards learning everything about technology. I did multiple internships in many tech giants like <strong>Microsoft Research, Google, UC Berkeley and Affectiva</strong>. However, this is not how I view my story. I contain multitudes.</p>
 							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-illustrations">
-						<div class="portfolio-image"  style="background: #FFF url('images/rh/entrepreneurship/hiat.jpg') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3 style="color: #000 !important;  padding: 2px;">NYUAD Hackathon 1st Place 2017</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics pf-uielements">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/award3.jpg') no-repeat top / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3 style="color: #000 !important;  padding: 2px;">HULT Regional Finalist in Shanghai</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/internships/12.jpg') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3  style="color: #000 !important;  padding: 2px;">Parent's Association Cup, Fall 2017</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-uielements pf-media">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/award1.jpg') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3  style="color: #000 !important;  padding: 2px;">Ambassador for Africa, Count My Voice Campaign, G20 Meeting, 2018</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics pf-illustrations">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/internships/13.jpg') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<div class="portfolio-desc">
-									<h3  style="color: #000 !important;  padding: 2px;">Honors and Exemplary Student, Spring 2013-2017</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-uielements pf-icons">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/travel/newyork5.png') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3  style="color: #000 !important;  padding: 2px;">Head Delegate for Outstanding Delegation in National Model UN NYC, Spring 2015</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item pf-graphics">
-						<div class="portfolio-image" style="background: #FFF url('images/rh/travel/newyork7.png') no-repeat center / cover; height:200px;">
-							<div class="portfolio-overlay">
-								<div class="portfolio-desc">
-									<h3  style="color: #000 !important;  padding: 2px;">Outstanding Delegation in National Model UN NYC, Spring 2013</h3>
-								</div>
-							</div>
-						</div>
-					</article>
-
-				</div>
-				<div id="section-travel" class="section bottommargin-lg" style="background: #FFF url('images/rh/map.png') no-repeat top right / contain; border-top: 1px solid #EEE;">
-					<div class="container clearfix">
-						<div class="heading-block center nobottommargin nobottomborder">
-							<span style="font-size: 16px; color: #888">25 Cities before I turned 25</span>
-							<h3 class="nott ls0" style="font-size: 60px;">The Traveller</h3>
 						</div>
 					</div>
 				</div>
-				<!-- Portfolio Items
+				<!-- Section sample projects
 				============================================= -->
-				<div id="portfolio" class="portfolio grid-container portfolio-masonry clearfix">
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/newyork3.jpg'); height: 200px; background-size: cover; background-position:cover;">
-											<!-- <img src="images/rh/travel/newyork3.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/newyork1.jpg'); height: 200px; background-size: cover; background-position:cover;">
-											<!-- <img src="images/rh/travel/newyork1.JPG" alt="Morning Dew"> -->
+				<div class="section nobg nopadding">
 
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/newyork4.png'); height: 200px; background-size: cover; background-position:cover;">
-											<!-- <img src="images/rh/travel/newyork4.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/newyork7.png'); height: 200px; background-size: cover; background-position:bottom;">
-											<!-- <img src="images/rh/travel/newyork7.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/newyork1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork2.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork5.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork6.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/newyork7.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">New York, NY, USA</a></h3>
-							<span><a href="#">North America</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/london2.png'); height: 500px; background-size:cover; background-position:center;;">
-											<!-- <img src="images/rh/travel/london2.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/london1.png'); height: 500px; background-size:cover; background-position:center;;">
-											<!-- <img src="images/rh/travel/london1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/london4.png'); height: 500px; background-size:cover; background-position:center;;">
-											<!-- <img src="images/rh/travel/london4.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/london6.png'); height: 500px; background-size:cover; background-position:center;;">
-											<!-- <img src="images/rh/travel/london6.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/london2.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/london1.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/london4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/london6.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">London, UK</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la1.jpg'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la5.jpg'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la5.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la7.jpg'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la7.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la8.png'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la8.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la10.png'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la10.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/la12.png'); background-size: cover; background-position: center; height:200px">
-											<!-- <img src="images/rh/travel/la12.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/la1.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/la5.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/la7.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/la8.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/la10.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/la12.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Los Angeles, Ca, USA</a></h3>
-							<span><a href="#">North America</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/abudhabi2.jpg');background-size:cover;background-position:center; height: 500px;">
-											<!-- <img src="images/rh/travel/abudhabi2.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/abudhabi3.jpg');background-size:cover;background-position:center; height: 500px;">
-											<!-- <img src="images/rh/travel/abudhabi3.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image: url('images/rh/travel/abudhabi3.png');background-size:cover;background-position:center; height: 500px;">
-											<!-- <img src="images/rh/travel/abudhabi3.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/abudhabi3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/abudhabi2.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/abudhabi3.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Abu Dhabi, UAE</a></h3>
-							<span><a href="#">Asia</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/amsterdam2.jpg'); background-size:cover;background-position:center; height: 200px;" >
-											<!-- <img src="images/rh/travel/amsterdam2.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/amsterdam1.png'); background-size:cover;background-position:center; height: 200px;" >
-											<!-- <img src="images/rh/travel/amsterdam1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/amsterdam4.png'); background-size:cover;background-position:center; height: 200px;" >
-											<!-- <img src="images/rh/travel/amsterdam4.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/amsterdam5.png'); background-size:cover;background-position:center; height: 200px;" >
-											<!-- <img src="images/rh/travel/amsterdam5.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/amsterdam2.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/amsterdam1.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/amsterdam4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/amsterdam5.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Amsterdam, Netherlands</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/bayarea1.png'); background-size:cover;background-position:center; height: 200px;">
-											<!-- <img src="images/rh/travel/bayarea1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/bayarea7.png'); background-size:cover;background-position:center; height: 200px;">
-											<!-- <img src="images/rh/travel/bayarea7.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/bayarea1.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea3.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea7.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea9.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea11.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea12.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea14.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea15.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/bayarea16.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Bay Area, Ca, USA</a></h3>
-							<span><a href="#">North America</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide">
-											<a href="#" style="background-image:url('images/rh/travel/brussels1.jpg'); background-size:cover;background-position:top; height: 200px;">
-											<!-- <img src="images/rh/travel/brussels1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide">
-											<a href="#" style="background-image:url('images/rh/travel/brussels4.png'); background-size:cover;background-position:center; height: 200px;">
-											<!-- <img src="images/rh/travel/brussels4.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide">
-											<a href="#" style="background-image:url('images/rh/travel/brussels5.png'); background-size:cover;background-position:center; height: 200px;">
-											<!-- <img src="images/rh/travel/brussels5.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/brussels1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/brussels4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/brussels5.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Brussels, Belgium</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/boston1.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/boston1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/boston2.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/boston2.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/boston1.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/boston2.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Boston, Ma, USA</a></h3>
-							<span><a href="#">North America</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/cairo1.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/cairo1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/cairo5.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/cairo5.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/cairo6.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/cairo6.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/cairo1.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/cairo5.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/cairo6.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/cairo4.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Egypt</a></h3>
-							<span><a href="#">Africa</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/como2.png'); background-size:cover; background-position:center; height:290px;">
-											<!-- <img src="images/rh/travel/como2.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/como2.jpg'); background-size:cover; background-position:center; height:290px;">
-											<!-- <img src="images/rh/travel/como2.jpg" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/como2.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/como2.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/como3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Como, Italy</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/dubai1.jpg'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/dubai1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/dubai3.jpg'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/dubai2.jpg" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/dubai1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/dubai3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Dubai, UAE</a></h3>
-							<span><a href="#">Asia</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/interlaken6.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/interlaken6.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/interlaken2.png'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/interlaken2.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/interlaken6.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/interlaken2.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/interlaken4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Interlaken, Switzerland</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/florida1.jpg'); background-size:cover; background-position:center; height:400px;">
-											<!-- <img src="images/rh/travel/florida1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/florida3.png'); background-size:cover; background-position:center; height:400px;">
-											<!-- <img src="images/rh/travel/florida3.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/florida1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/florida2.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/florida3.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Orlando, Fl, USA</a></h3>
-							<span><a href="#">North America</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/lucerne1.png'); background-size:cover; background-position:center; height:300px;">
-											<!-- <img src="images/rh/travel/lucerne1.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/lucerne4.png'); background-size:cover; background-position:center; height:300px;">
-											<!-- <img src="images/rh/travel/lucerne4.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/lucerne1.png" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/lucerne2.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/lucerne4.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Lucerne, Switzerland</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/paris1.jpg'); background-size:cover; background-position:center; height:500px;">
-											<!-- <img src="images/rh/travel/paris1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/paris6.jpg'); background-size:cover; background-position:center; height:500px;">
-											<!-- <img src="images/rh/travel/paris6.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/paris7.png'); background-size:cover; background-position:center; height:500px;">
-											<!-- <img src="images/rh/travel/paris7.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/paris9.png'); background-size:cover; background-position:center; height:500px;">
-											<!-- <img src="images/rh/travel/paris9.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/paris1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/paris4.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/paris5.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/paris6.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/paris7.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/paris8.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Paris, France</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/romania1.jpg'); background-size:cover; background-position:bottom; height:200px;">
-											<!-- <img src="images/rh/travel/romania1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/romania2.jpg'); background-size:cover; background-position:center; height:200px;">
-											<!-- <img src="images/rh/travel/romania2.jpg" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/romania1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/romania2.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Brasov, Romania</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/rome1.jpg'); background-size:cover; background-position:center; height:300px;">
-											<!-- <img src="images/rh/travel/rome1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/rome2.jpg'); background-size:cover; background-position:center; height:300px;">
-											<!-- <img src="images/rh/travel/rome2.jpg" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href=images/rh/travel/rome1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/rome2.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Rome, Italy</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/shanghai3.jpg'); background-size:cover; background-position:center; height:290px;">
-											<!-- <img src="images/rh/travel/shanghai3.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/shanghai7.png'); background-size:cover; background-position:top; height:290px;">
-											<!-- <img src="images/rh/travel/shanghai7.png" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/shanghai8.png'); background-size:cover; background-position:center; height:290px;">
-											<!-- <img src="images/rh/travel/shanghai8.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/shanghai3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/shanghai6.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/shanghai7.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/shanghai8.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Shanghai, China</a></h3>
-							<span><a href="#">Asia</a></span>
-						</div>
-					</article>
-					<article class="portfolio-item pf-icons pf-illustrations">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/zurich1.jpg'); background-size:cover; background-position:top; height:210px; ">
-											<!-- <img src="images/rh/travel/zurich1.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/zurich3.jpg'); background-size:cover; background-position:center; height:210px; ">
-											<!-- <img src="images/rh/travel/zurich3.jpg" alt="Morning Dew"> -->
-										</a></div>
-										<div class="slide"><a href="#" style="background-image:url('images/rh/travel/zurich5.png'); background-size:cover; background-position:center; height:210px; ">
-											<!-- <img src="images/rh/travel/zurich5.png" alt="Morning Dew"> -->
-										</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/rh/travel/zurich1.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/zurich3.jpg" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/zurich5.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/zurich9.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/rh/travel/zurich10.png" class="hidden" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="#" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Zurich, Switzerland</a></h3>
-							<span><a href="#">Europe</a></span>
-						</div>
-					</article>
-				</div><!-- #portfolio end -->
-				<div class="section nomargin">
-					<div class="container clearfix">
-						<div class="divcenter center" style="max-width: 900px;">
-							<h3 class="nobottommargin t300 ls1">I would like to specially thank my mum, my siblings, my endlessly supportive friends for always having my back and supporting me in all what I pursue in life.</h3>
+					<div class="container center" style="max-width: 100% !important;">
+
+						<div class="col-lg-6 offset-lg-3 mb-5">
+							<small class="text-muted uppercase t300 ls3 d-block">Audaciousness</small>
+							<h2 class="t700 ls0 mb-3" style="font-size: 46px;">Interactive Tech x Product Design</h2>
+							<p class="text-muted" style="font-size: 16px; text-align:justify;">I tred the fine line between the physical and digital products and design products with the user in mind. The following is a sample of my projects where practicing design thinking informed the creation of products that addressed specific user needs. Check out the rest of my works <a href="./rh/portfolio.html">here</a></p>
 						</div>
 					</div>
 				</div>
-				<div id="section-about" class="section page-section nomargin clearfix" style="background: #EEE url('./images/rh/radwa.jpg') no-repeat center center; background-size: cover; padding: 100px 0">
+				<div id="oc-images" class="owl-carousel owl-carousel-full news-carousel header-stick bottommargin-lg carousel-widget nobottommargin" data-margin="3" data-loop="true" data-stage-padding="50" data-pagi="false" data-items-sm="1" data-items-xl="2">
+
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/audible/cover.jpg" alt="Image 1"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Product Design</span>
+								<div class="text-overlay-title">
+									<h2>An eternal memory of my  mom's voice using bone conduction and jewellary design</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Design Thinking, Interactive Design, Tech, Product Design</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read Audible's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/identity1/cover.JPG" alt="Image 2"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Interactive Design</span>
+								<div class="text-overlay-title">
+									<h2>Museum piece to answer the question: "What is Identity?"</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Design Thinking, Interactive Design</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read Occhiolism's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/bootcamp/cover.jpg" alt="Image 3"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Design Thinking</span>
+								<div class="text-overlay-title">
+									<h2>Stanford design bootcamp for high impact</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Design Thinking, Teaching as Research</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read d.Bootcamp's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/riseup/cover.jpg" alt="Image 4"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Interactive Design</span>
+								<div class="text-overlay-title">
+									<h2>MENA entrepreneurial eco-system data visualization interactive gallery</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Tech, Interactive Design, Data Visualization</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read The Gallery's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/embedded/cover.jpg" alt="Image 5"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Interactive Dessign</span>
+								<div class="text-overlay-title">
+									<h2>An automated motion-capture drone synchronized with other robotic systems for animation generation</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Tech, Interactive Design, Robotics</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read The Cinematic Orchestra's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/santa cruz/cover.JPG" alt="Image 6"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Design Thinking</span>
+								<div class="text-overlay-title">
+									<h2>Spring Hill Elementary School Design Bootcamp</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Civic Engagement, Design Thinking, Teacheing as Research</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read SHES's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/identity2/cover.JPG" alt="Image 6"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Interactive Design</span>
+								<div class="text-overlay-title">
+									<h2>Revisit of a museum piece to answer the question: "What is Identity?"</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>esign Thinking, Interactive Design</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read Redux's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="oc-item">
+						<a href="#"><img src="images/rh/design/ssc/cover.JPG" alt="Image 6"></a>
+						<div class="overlay">
+							<div class="text-overlay">
+								<span class="badge badge-danger">Design Thinking</span>
+								<div class="text-overlay-title">
+									<h2>Stanford Service Corps Design Collaboration</h2>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Civic Engagement, Design Thinking, Sustainablity</span>
+								</div>
+								<a href="#" class="button button-reveal button-border button-light button-small button-rounded uppercase tright noleftmargin topmargin-sm"><span>Read CCSC's Story</span><i class="icon-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="rh/portfolio.html" class="left button button-border button-dark button-rounded button-large noleftmargin nobottommargin d-none d-md-inline-block fadeInUp animated" style="margin-top: 30px;">Explore More Projects</a>
+
+				<!-- Section Photographs
+				============================================= -->
+				<div class="section nobg nopadding">
+
+					<div class="container center" style="max-width: 75% !important;">
+
+						<div class="col-lg-6 offset-lg-3 mb-5">
+							<small class="text-muted uppercase t300 ls3 d-block">See what I did</small>
+							<h2 class="t700 ls0 mb-3" style="font-size: 46px;">Get to know all sides of me.</h2>
+							<p class="text-muted" style="font-size: 16px; text-align:justify;">I have been pursuing a passion towards technolgy and my internships helped me tickle the technical giants; however, it is by directly working with vulnerable communities like internally displaced nubians, syrian refugees and kids that I learnt my true passion in life: using my knowledge for social good.</p>
+						</div>
+
+						<div class="row grid-container clearfix">
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-4 mb-4 rounded img-hover-wrap">
+								<div class="img-hover-card">
+									<a href="./rh/internships.html"><img src="images/rh/tiles/internships_2.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-4 mb-4 rounded img-hover-wrap">
+								<div class="img-hover-card">
+									<a href="./rh/social.html"><img src="images/rh/tiles/social_2.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-4 mb-4 rounded img-hover-wrap">
+								<div class="img-hover-card"  onclick="on('overlay-entrepreneurship')">
+									<img src="images/rh/tiles/entrepreneur.png" id="entrepreneurship" alt="">
+								</div>
+							</div>	
+						</div>
+						<div class="row grid-container clearfix center">
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-2 mb-4 rounded img-hover-wrap">
+							</div>
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-4 mb-4 rounded img-hover-wrap">
+								<div class="img-hover-card">
+									<a href="./rh/travel.html"><img src="images/rh/tiles/travel.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Photographs
+							============================================= -->
+							<div class="col-lg-4 mb-4 rounded img-hover-wrap">
+								<div class="img-hover-card">
+									<a href="./rh/talks.html"><img src="images/rh/tiles/talks_2.png" alt=""></a>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="section notopmargin nobottommargin clearfix" style="background-color: #4b4345">
 					<div class="container clearfix">
 						<div class="row clearfix">
-							<div class="col-md-5 offset-md-7 clearfix">
-								<div class="heading-block">
-									<h2 class="font-secondary" ">Contact Information &amp; Resume</h2>
+							<div class="col-lg-4 col-md-5 offset-lg-1 topmargin-lg divcenter" style="position: center;">
+								<img src="images/rh/happy.jpg" alt="img-author" style="border: 10px solid #102a49;">
+							</div>
+							<div class="col-lg-5 col-md-7 offset-lg-1">
+								<div class="d-block d-md-none d-lg-none d-xl-block"></div>
+								<div class="heading-block noborder">
+									<h2 class="ls5" style="color: #f79b77">I contain multitudes</h2>
 								</div>
-								<table class="table">
-									<tbody>
-										<tr>
-											<td><strong>Email:</strong></td>
-											<td>radwahamedsoliman@gmail.com</a></td>
-										</tr>
-										<tr>
-											<td><strong>Phone:</strong></td>
-											<td>+2 0122 3285 268</td>
-										</tr>
-										<tr>
-											<td><strong>Website:</strong></td>
-											<td>radwahamed.com</td>
-										</tr>
-										<tr>
-											<td><strong>DOB:</strong></td>
-											<td>30th October 1992</td>
-										</tr>
-										<tr>
-											<td><strong>Nationality:</strong></td>
-											<td>Egyptian</td>
-										</tr>
-									</tbody>
-								</table>
-							<a href="https://drive.google.com/file/d/1YQLUMENJ_WjAHOkiFuOYTjYb5ePu2ses/view?usp=sharing" class="button button-large button-border button-black button-dark noleftmargin"><i class="icon-line-cloud-download"></i> Download CV</a>
+								<h3 class="nobottommargin t300 ls1" style="color: #f8f5f2 !important">
+									For I’m all the places where a piece of my heart once resided... I’m Cairo when I am tenacious, Paris when I am artsy, Zurich when I am calm, California when I am innovative and NY when I am wild. I’m all the ages which I have lived... I’m three when I laugh; I am five when I cry; I am fifteen when I dream and I am twenty when I love. I am all the people which were reflected on me... my family, my friends, my heartbreaks and my role models.
+								</p>
 							</div>
 						</div>
-					</div>
-					<div class="video-wrap">
-						<div class="video-overlay d-sm-block d-md-none" style="background: rgba(255,255,255,0.9);"></div>
 					</div>
 				</div>
 			</div>
 		</section><!-- #content end -->
-
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark">
+		<footer id="footer" class="dark" style="background-color: #102a49;">
 
-			<div class="container">
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
 
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
+				<div class="container clearfix">
 
-					<div class="col_two_third">
-
-						<div class="col_one_third">
-
-							<div class="widget clearfix">
-
-								<p>I believe in the power of <strong>Impact</strong>, <strong>Empathy</strong> &amp; <strong>Innovation</strong>.</p>
-
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-									<address>
-										<strong>Address:</strong><br>
-										18 Jasmin Building, Zahraa Elmaadi<br>
-										Cairo, Egypt 11742<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+2) 0122 3285268<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> radwahamedsoliman@gmail.com
-								</div>
-
-							</div>
-
-						</div>
-
+					<div class="col_half">
+						Let's talk.<br>
+						<div class="copyright-links">Resume available upon request.</div>
 					</div>
 
-				</div><!-- .footer-widgets-wrap end -->
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="https://www.facebook.com/radwa.hamed.soliman" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
 
-			</div>
+							<a href="https://www.instagram.com/radwahamedsoliman/" class="social-icon si-small si-borderless si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+
+							<a href="https://www.linkedin.com/in/radwahamed/" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> rhamed92@stanford.edu <span class="middot">&middot;</span> <i class="icon-envelope2"></i> radwahamedsoliman@gmail.com
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
 
 		</footer><!-- #footer end -->
-
 	</div><!-- #wrapper end -->
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+	<div id="gotoTop" class="icon-angle-up" style="display: block;"></div>
 
 	<!-- External JavaScripts
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js"></script>
 
-	<script src="js/jquery.gmap.js"></script>
-
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
 
-	<!-- Custom Carousel JS File -->
-	<script>
 
-		jQuery(document).ready( function($){
+	<script>	
+		function on(rh_overlay) {
+			if (rh_overlay==="overlay-entrepreneurship"){
+		  		document.getElementById("overlay-entrepreneurship").style.display = "flex";
+			}
+		}
 
-			var carouselRTL = false;
-
-			if( $('body').hasClass('rtl') ) { carouselRTL = true; }
-
-			$('#food-menu-carousel').owlCarousel({
-				animateIn: 'fadeIn',
-				animateOut: 'fadeOut',
-				items: 1,
-				mouseDrag: false,
-				dotsContainer: '#item-thumb',
-				rtl: carouselRTL
-			});
-
-			$('#dessert-menu-carousel').owlCarousel({
-				animateIn: 'fadeIn',
-				animateOut: 'fadeOut',
-				items: 1,
-				mouseDrag: false,
-				dotsContainer: '#item-thumb1',
-				rtl: carouselRTL
-			});
-		});
-
+		function off(rh_overlay) {
+			if (rh_overlay==="overlay-entrepreneurship"){
+		  		document.getElementById("overlay-entrepreneurship").style.display = "none";
+			}
+		}
 	</script>
-
 </body>
 </html>
