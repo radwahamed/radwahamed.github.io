@@ -4,10 +4,6 @@
 -----------------------------------------------------------------*/
 
 
-body,
-#content,
-#footer.dark { background-color: #252323; }
-
 @media (min-width: 992px) {
 
 	.co-name img {
