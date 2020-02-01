@@ -1,7 +1,7 @@
 /* demo for illustrator CSS */
 
 body{
-	background:url(../../img/bgstory.jpg) no-repeat center / cover;
+	/*background:url(../../img/bgstory.jpg) no-repeat center / cover;*/
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     background-size: 100%; 
