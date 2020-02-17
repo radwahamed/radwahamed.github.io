@@ -7,7 +7,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,600,700|Raleway:300,400,500,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="../style.css" type="text/css" />
 	<link rel="stylesheet" href="../css/dark.css" type="text/css" />
@@ -93,12 +93,10 @@
 		<!-- Page Title
 		============================================= -->
 		<section id="page-title">
-
 			<div class="container clearfix">
-				<h1>Robox - Simaltaneous Localization and Mapping System</h1>
-				<h3>EENG Graduation Thesis</h3>
+				<h1>Robox
+				<span class="subtitle"> A Robotic Simaltaneous Localization and Mapping System</span></h1>
 			</div>
-
 		</section><!-- #page-title end -->
 		<!-- Content
 		============================================= -->
@@ -109,7 +107,7 @@
 
 					<!-- Portfolio Single - Meta
 					============================================= -->
-					<div class="card events-meta">
+					<div class="card events-meta bottommargin-sm">
 						<div class="card-body">
 							<ul class="portfolio-meta nobottommargin">
 								<li><span><i class="icon-user"></i>Created by:</span> Radwa Hamed, Ahmed Othman, Zeinab Kamel, Omar Makhlouf, Ahmed Sobhy</li>
@@ -119,31 +117,53 @@
 						</div>
 					</div>
 					<!-- Portfolio Single - Meta End -->
-				
+					<!-- Portfolio Badges
+					============================================= -->
+					<div class="card events-meta">
+						<div class="card-body">
+							<ul class="portfolio-meta nobottommargin">
+								<div class="fancy-title">
+									<h4>Badges earned on this project:</h4>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/robot.svg" alt="Interactive" class="center" width=60 height=60></span>Robotics</li>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/vision.svg" alt="Futuristic" class="center" width=60 height=60></span>Computer Vision</li>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/autonomous.svg" alt="Interactive" class="center" width=60 height=60></span>Autonomous Driving</li>
+								</div>
+							</ul>
+						</div>
+					</div>
 				</div>
 
 				<!-- Portfolio Single Content
 				============================================= -->
-				<div class="col_two_third portfolio-single-content col_last nobottommargin">
+				<div class="col_one_third portfolio-single-content nobottommargin">
 
 					<!-- Portfolio Single - Description
 					============================================= -->
 					<div class="fancy-title title-dotted-border">
 						<h2>Project Idea:</h2>
 					</div>
+					<p  style="font-size: 16px; text-align: justify;">Robox is an explorative Robot that we built as part of our Electronics Engineering Major Graduation Project. It carries out simaltaneous localization and mapping in an attempt autonomously explore uninhibited areas. The robot enters <strong>unexplored areas</strong>, and by navigating around the region, it incrementally <strong>builds a 2D floor plan</strong> of it. This is also a fundamental building block for any autonomous robotic system, which must always maintain a model of its environment to be able to interact with it <strong>autonomously</strong>.</p>
+					<p  style="font-size: 16px; text-align: justify;"> At the lowest level, we implemented a control subsystem on a robotic car which is capable of executing motion commands accurately as well as measuring its motion and reporting its own location estimate. A path-planning subsystem was also implemented, which takes a high-level goal for the robot and generates an efficient sequence of motion commands for the robot to execute to achieve that goal. It also deals with such issues as obstacle avoidance while the robot is in motion.As the robot is in motion, a simultaneous localization and mapping (SLAM) subsystem takes location estimates from the robot.</p>
+				</div>
 
-					<div class="col_half nobottommargin">
-						<p style="text-align:justify">Robox is an explorative Robot that we built as part of our Electronics Engineering Major Graduation Project. It carries out simaltaneous localization and mapping in an attempt autonomously explore uninhibited areas. The robot enters <strong>unexplored areas</strong>, and by navigating around the region, it incrementally <strong>builds a 2D floor plan</strong> of it. This functionality is useful not only for applications that can make direct use of the map, such as construction surveying, reconnaissance missions, and search and rescue operations, but it is also a fundamental building block for any autonomous robotic system, which must always maintain a model of its environment to be able to interact with it <strong>autonomously</strong>.</p>
-						<p style="text-align:justify"> At the lowest level, we implemented a control subsystem on a robotic car which is capable of executing motion commands accurately as well as measuring its motion and reporting its own location estimate. A path-planning subsystem was also implemented, which takes a high-level goal for the robot and generates an efficient sequence of motion commands for the robot to execute to achieve that goal. It also deals with such issues as obstacle avoidance while the robot is in motion.</p>
-					</div>
-
-					<div class="col_half col_last nobottommargin">
-						<p style="text-align:justify">As the robot is in motion, a simultaneous localization and mapping (SLAM) subsystem takes location estimates from the robot, along with sensor information to incrementally build a map of the environment. This sensor data comes from a depth sensing subsystem, which continuously extracts depth information about its surroundings using a depth camera and processes it into a format that is suitable for the SLAM subsystem to use. Different subsystems are implemented over different platforms, with a total of three platforms used, namely, a laptop, an embedded system on the robot, and a microcontroller on the robot. In addition to the primary subsystems, other issues are also dealt with, such as power supplies and communication links between the different platforms. </p>
-						<p style="text-align:justify">I was responsible for the depth sensing and map creation module in this project. </p>
-						<h4 style="text-align:justify"> You can find more details about the project in in the presentation shared below including the system design and challenges, or in this <a href="https://drive.google.com/file/d/0B-5uGpN6-A4sVHpWYzF5M0kwYWc/view?usp=sharing"> report</a>.</h4>
-					</div>
-					<!-- Portfolio Single - Description End -->
-
+				<div class="col_one_third portfolio-single-content col_last nobottommargin">
+					<div class="fancy-title title-dotted-border">
+							<h2>My Role:</h2>
+						</div>
+						<div class="card events-meta">
+							<div class="card-body nopadding">
+								<p style="font-size: 18px; font-weight: 300; font-family: 'Source Sans Pro', sans-serif; margin-top: 5px; margin-bottom: 5px; text-align: center;">Computer Vision Engineer</p>
+							</div>
+						</div>
+					<p  style="font-size: 16px; text-align: justify;"> I was responsible for the depth sensing and map creation module in this project. The sensor information wasss captured and used to incrementally build a map of the environment. This sensor data comes from a depth sensing subsystem, which continuously extracts depth information about its surroundings using a depth camera and processes it into a format that is suitable for the SLAM subsystem to use. Different subsystems are implemented over different platforms, with a total of three platforms used, namely, a laptop, an embedded system on the robot, and a microcontroller on the robot. In addition to the primary subsystems, other issues are also dealt with, such as power supplies and communication links between the different platforms. </p>
+					<p  style="font-size: 16px; text-align: justify;"> </p>
+					<h4  style="font-size: 16px; text-align: justify;"> You can find more details about the project in in the presentation shared below including the system design and challenges, or in this <a href="https://drive.google.com/file/d/0B-5uGpN6-A4sVHpWYzF5M0kwYWc/view?usp=sharing"> report</a>.</h4>
 				</div><!-- .portfolio-single-content end -->
 
 				<div class="clear"></div>

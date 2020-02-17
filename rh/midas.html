@@ -7,7 +7,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,600,700|Raleway:300,400,500,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="../style.css" type="text/css" />
 	<link rel="stylesheet" href="../css/dark.css" type="text/css" />
@@ -77,12 +77,10 @@
 		<!-- Page Title
 		============================================= -->
 		<section id="page-title">
-
 			<div class="container clearfix">
-				<h1>Midas - Gesture Detection System</h1>
-				<h3>CSCE Graduation Thesis</h3>
+				<h1>Midas
+				<span class="subtitle">An open source Gesture Detection System</span></h1>
 			</div>
-
 		</section><!-- #page-title end -->
 		<!-- Content
 		============================================= -->
@@ -97,7 +95,7 @@
 
 					<!-- Portfolio Single - Meta
 					============================================= -->
-					<div class="card events-meta">
+					<div class="card events-meta bottommargin-sm">
 						<div class="card-body">
 							<ul class="portfolio-meta nobottommargin">
 								<li><span><i class="icon-user"></i>Created by:</span> Radwa Hamed, Mennatullah Yahia, Souhaida Salaheddin, Yahia Aboulnaga</li>
@@ -107,39 +105,65 @@
 						</div>
 					</div>
 					<!-- Portfolio Single - Meta End -->
+					<!-- Portfolio Badges
+					============================================= -->
+					<div class="card events-meta">
+						<div class="card-body">
+							<ul class="portfolio-meta nobottommargin">
+								<div class="fancy-title">
+									<h4>Badges earned on this project:</h4>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/motherboard.svg" alt="Interactive" class="center" width=60 height=60></span>Machine Learning</li>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/cpp.svg" alt="Futuristic" class="center" width=60 height=60></span>C++</li>
+								</div>
+								<div>
+									<li><span><img src="../images/rh/icons/vision.svg" alt="Interactive" class="center" width=60 height=60></span>Computer Vision</li>
+								</div>
+							</ul>
+						</div>
+					</div>
 				</div>
 
 				<!-- Portfolio Single Content
 				============================================= -->
-				<div class="col_two_third portfolio-single-content col_last nobottommargin">
+				<div class="col_one_third portfolio-single-content nobottommargin">
 
 					<!-- Portfolio Single - Description
 					============================================= -->
 					<div class="fancy-title title-dotted-border">
 						<h2>Project Idea:</h2>
 					</div>
+					<p  style="font-size: 16px; text-align: justify;">Midas is  Human Computer Interaction (HCI) is an evolving area of research. It develops new ways through which people interact with computers in an easy and more natural way. Throughout the history of computing, people have been dependent on devices through which they could interact with computers. A new trend is the vision-based interaction methods, like hand gestures. <strong> Midas uses a depth camera to detect human gestures, recognize them, and trigger actions based on the type of gesture. </strong> Midas will enable developers, with very minimal experience in the Computer Vision and Artificial Intelligence fields, to develop gesture-smart systems.</p>
+					<p  style="font-size: 16px; text-align: justify;">Midas comes in the form of an Application Program Interface (API). This system is made up of:</p>
+					<ul  style="font-size: 16px; text-align: justify;">
+						<li>Data collection tool, which will facilitate gathering the dataset for training and testing.</li>
+						<li>The detection and recognition engine.</li>
+						<li>An application that calibrates user’s hand position, then uses the trained classifiers to detect and respond to hand gestures by triggering the corresponding actuator.</li>
+					</ul>
+				</div>
 
-					<div class="col_half nobottommargin">
-						<p style="font-size: 18px;">Midas is  Human Computer Interaction (HCI) is an evolving area of research. It develops new ways through which people interact with computers in an easy and more natural way. Throughout the history of computing, people have been dependent on devices through which they could interact with computers. A new trend is the vision-based interaction methods, like hand gestures. <strong> Midas uses a depth camera to detect human gestures, recognize them, and trigger actions based on the type of gesture. </strong> Midas will enable developers, with very minimal experience in the Computer Vision and Artificial Intelligence fields, to develop gesture-smart systems.</p>
-						<p style="font-size: 18px;"> Midas comes in the form of an Application Program Interface (API). It’s a library that developers would use in their own applications, and a web application to provide a sample of how our API works. In Midas, we implement three main modules: Detection, Tracking, and Recognition. These three modules will implement Computer Vision and pattern analysis technologies to help achieve the functionality in the three modules.</p>
+				<div class="col_one_third portfolio-single-content col_last nobottommargin">
+					<!-- Portfolio Single - Description
+					============================================= -->
+					<div class="fancy-title title-dotted-border">
+						<h2>My Role:</h2>
 					</div>
-
-					<div class="col_half col_last nobottommargin">
-						<p style="font-size: 18px;">This system is made up of:</p>
-						<ul style="font-size: 18px;">
-							<li>Data collection tool, which will facilitate gathering the dataset for training and testing.</li>
-							<li>The detection and recognition engine, which contains the software implementations to perform hand detection, hand tracking, and gesture recognition.</li>
-							<li>An application that calibrates user’s hand position, then uses the trained classifiers to detect and respond to hand gestures by triggering the corresponding actuator.</li>
-						</ul>
-						<p style="font-size: 18px;">I was responsible for the Gesture Recognition Module in this project </p>
-						<p style="font-size: 18px;"> You can find more details about the project in in the presentation shared above including the system design and challenges, or in the following documents:</p>
-						<ul style="font-size: 18px;">
-							<li><a href="https://docs.google.com/document/d/1ZSrcxZdzpfRcBO0S5CKJAkyowiUPxeKbkvLac4Ga1Lw/edit?usp=sharing">Software Requirements Document</a>.</li>
-							<li><a href="https://docs.google.com/document/d/1RrVSjtC-lvonqiCJ3oZu02A8yujPL_V2HygdOG9C87U/edit?usp=sharing">Software Design Document</a>.</li>
-							<li><a href="https://docs.google.com/document/d/1hktpvrjpui9bFoK99_amq-IlbnoREwDZ0mgkMOCJK-I/edit?usp=sharing">Final Project Report</a>.</li>
-						</ul>
+					<div class="card events-meta">
+						<div class="card-body nopadding">
+							<p style="font-size: 18px; font-weight: 300; font-family: 'Source Sans Pro', sans-serif; margin-top: 5px; margin-bottom: 5px; text-align: center;">Machine Learning Engineer</p>
+						</div>
 					</div>
-					<!-- Portfolio Single - Description End -->
+					
+					<p  style="font-size: 16px; text-align: justify;"><strong>I was responsible for the Gesture Recognition Module in this project which contains the software implementations to perform gesture recognition and driving an action out of it after hand detection, hand tracking. The implementation included mapping the tracked movement to inferred gestures and deriving actions out of this.</strong></p>
+					<p  style="font-size: 16px; text-align: justify;"> You can find more details about the project in in the presentation shared above including the system design and challenges, or in the following documents:</p>
+					<ul  style="font-size: 16px; text-align: justify;">
+						<li><a href="https://docs.google.com/document/d/1ZSrcxZdzpfRcBO0S5CKJAkyowiUPxeKbkvLac4Ga1Lw/edit?usp=sharing">Software Requirements Document</a>.</li>
+						<li><a href="https://docs.google.com/document/d/1RrVSjtC-lvonqiCJ3oZu02A8yujPL_V2HygdOG9C87U/edit?usp=sharing">Software Design Document</a>.</li>
+						<li><a href="https://docs.google.com/document/d/1hktpvrjpui9bFoK99_amq-IlbnoREwDZ0mgkMOCJK-I/edit?usp=sharing">Final Project Report</a>.</li>
+					</ul>
 
 				</div><!-- .portfolio-single-content end -->
 
